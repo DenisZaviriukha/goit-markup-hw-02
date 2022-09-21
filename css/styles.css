@@ -41,11 +41,7 @@ body{
     text-decoration: none;
 }
 
-
-
 /*-------------------------------HEADER-----------------------------*/
-
-
 
 .heading {
     background-color: var(--white-color);
@@ -86,11 +82,6 @@ body{
     color: var(--heading-black-color);
 }
 
-
-
-
-
-
 .contacts-list{
 
 }
@@ -106,18 +97,13 @@ body{
     color: var(--paragraph-gray-color)
 }
 
-
-
 /*-------------------------------HERO-----------------------------*/
-
-
 
 .hero-section {
     background:var(--dark-background-color);
 }
 .hero-text {
     color: var(--white-color);
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -125,20 +111,13 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase
 }
+
 .hero-button {
     cursor: pointer;
     color: var(--white-color);
     background: var(--accent-color);
     border-radius: 4px;
-    border:none
-    
-}
-.hero-button:hover, .hero-button:focus{
-    background:var(--hero-button-accent); 
-}
-
-
-.hero-button-text{
+    border:none;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -146,22 +125,27 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
+    font-family:'Roboto';
 }
 
-
+.hero-button:hover, .hero-button:focus{
+    background:var(--hero-button-accent); 
+}
 
 /*------------------------------DIGNITY---------------------------*/
 
-
-
 .dignity-section {  
+
 }
+
 .dignity-list {
+
 }
+
 .dignity-item {
 
 }
+
 .dignity-header {
     font-weight: 700;
     font-size: 14px;
@@ -170,6 +154,7 @@ body{
     text-transform: uppercase;
     color: var(--heading-black-color)
 }
+
 .dignity-paragraph {
     font-size: 14px;
     line-height: 1.71;
@@ -177,13 +162,10 @@ body{
     
 }
 
-
-
 /*--------------------------STUDIO------------------------------*/
 
-
-
 .studio-section {
+
 }
 .studio-header {
     font-weight: 700;
@@ -193,18 +175,21 @@ body{
     letter-spacing: 0.03em;
     color: var(--heading-black-color)
 }
+
 .studio-list {
+
 }
 
 .studio-item {
+
 }
 
-
-
 /*------------------------TEAM------------------------------*/
+
 .team-section{
     background-color: var(--fake-white);
 }
+
 .team-heading{
     font-weight: 700;
     font-size: 36px;
@@ -215,6 +200,7 @@ body{
 }
 
 .team-list {
+
 }
 
 .team-item {
@@ -226,7 +212,6 @@ body{
     font-size: 16px;
     line-height: 1.18;  
     letter-spacing: 0.03em;
-    
     color: var(--heading-black-color);
 }
 
@@ -234,39 +219,39 @@ body{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    
 }
-
-
 
 /*------------------------FOOTER------------------------------*/
 
-
-
-.footer{
-        
+.footer{ 
     background:var(--dark-background-color);   
-    }
-.footer-list {
 }
+
+.footer-list {
+
+}
+
 .footer-street {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color)
 }
+
 .footer-contacts-item {
+
 }
+
 .footer .logo-studio{
     color: var(--white-color);
 }
+
 .footer-address{
     font-style: normal;
 }
 
 .street-link{
     color: var(--white-color);
-
 }
 
 .footer-contacts-link {
@@ -276,13 +261,10 @@ body{
     color:var(--footer-contacts-color);   
 }
 
-
-
 /*------------------------FILTERS------------------------------*/
 
-
-
 .filters {
+
 }
 
 .filter-item {
@@ -303,8 +285,6 @@ body{
     font-family: inherit;
 }
 
-    
-
 .filter-button:hover,
 .filter-button:focus{
     background: var(--accent-color);
@@ -317,17 +297,20 @@ body{
 
 }
 
-
 /*------------------------PROJECTS------------------------------*/
 
+.portfolio {
 
-.projects {
 }
+
 .projects-list {
+
 }
+
 .project-item {
     
 }
+
 .project-name {
     font-weight: 700;
     font-size: 18px;
@@ -335,8 +318,8 @@ body{
     letter-spacing: 0.06em;
     color:var(--heading-black-color); 
 }
-.project-type {
-    font-weight: 400;
+
+.project-type { 
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
